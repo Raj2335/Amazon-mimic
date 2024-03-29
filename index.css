@@ -1,0 +1,388 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+ }
+ .navbar{
+    height: 60px;
+    background-color: black;
+    display:flex;
+    /* justify-content: space-around */
+ }
+ .nav-logo{
+   height: px;
+   width: 130px;
+ }
+ .logo{
+   background-image:url(amazon_logo.png) ;
+   height:55px;
+   width:100%;
+   background-size: cover;
+ }
+ .border{
+   border: 2px solid transparent;
+ }
+ .border:hover{
+   border:2px solid white;
+ }
+ .add-icon{
+   color: white;
+ }
+ /* box1 */
+ .first{
+    color: #CCCCCC;   
+    margin-left: 12px;
+ }
+ /* box 2 */
+.second{
+  font-weight: 700;
+  font-size: 085.rem;
+} 
+.location{
+  display: flex;
+}
+.add-icon{
+position: absolute;
+top:10px;
+left:130px;
+font-size:14px;
+/* display: flex;
+align-items: center; */
+}
+.search{
+  height: 29.5px;
+  /* width:500px; */
+  margin-top: 15px;
+  display: flex;
+  margin-left:80px ;
+  /* border-radius: 50%; */
+}
+.f2{
+  height: 28.5px;
+  width: 40px;
+  margin-top: 1px;
+  border-right: none;
+  border-top-left-radius:15% ;
+  border-bottom-left-radius:15% ;
+
+}
+.searchi{
+  margin-top: 1.5px;
+  width: 700px;
+  height: 25px;
+  border: none;
+
+}
+
+.sicon{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: 27px;
+  width: 25px;
+  margin-top: 2.4px;
+  border-top-right-radius:15% ;
+  border-bottom-right-radius:15% ;
+  background-color:orange;
+}
+.details{
+  height: 50px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.p2{
+  color: white;
+}
+.hello1{
+font-size: 14px;
+}
+.hello2{
+  font-size: 16px;
+  font-weight: 600;
+}
+.search:hover {
+  border: 2.5px solid orange;
+  /* border-bottom-left-radius:7%;
+  border-top-left-radius:7% ;
+  border-bottom-right-radius:7%;
+  border-top-right-radius:7% ; */
+}
+.return{
+  color: white;
+  margin-top: 10px;
+  margin-left: 25px;
+
+}
+.hello3{
+  font-size: 14px;
+  }
+  .hello4{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .nav-cart{
+    height: 50px;
+    width: 50px;
+    display: flex;
+  }
+  .nav-cart-icon{
+    margin-top: 15px;
+    margin-left: 20px;
+    /* float: right; */
+    color: white;
+    font-size: 30px;
+    size: 25px;
+  }
+.cart-font{
+  margin-top: 25px;
+  margin-left: 4px;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
+}
+ /* 2nd nav bar */
+  .navbar-2{
+    height: 30px;
+    background-color: #232f3e;
+    color: white;
+    font-weight:600;
+    display:flex;
+    
+  }
+  .bar{
+    margin-top: 4px;
+    margin-left:10px;
+    color: white;
+    display: flex;
+  }
+.all{
+  margin-left:8px;
+  font-size: small;
+  font-weight:700;
+  margin-top: 5px;
+
+}
+.freh{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+  
+}
+.TV{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+
+}
+.sales{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.seller{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.mobiles{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.deal{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.elec{
+  margin-left:10px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.cs{
+  margin-left:15px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.member{
+  margin-left:15px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.release{
+  margin-left:15px;
+  font-size:16px;
+  margin-top: 4px;
+}
+.big{
+  /* margin-left:2px; */
+  font-size:16px;
+  margin-top: 4px;
+}
+
+.image{
+  background-image: url(hero.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.info{
+  height:30px;
+  width:1300px ;
+  margin-top: 9px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  
+}
+.txtcolor{
+  color: #007185;
+}
+.shop-section{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+  flex-wrap: wrap;
+
+}
+.box{
+  height: 330px;
+  width: 270px;
+  /* border: 2px solid black; */
+  background-color:white  ;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+
+}
+.shop{
+  height:250px;
+  margin-top: 5px;
+  background-size: cover;
+}
+.anchor{
+    margin-top: 20px;
+}
+h3{
+  margin-top: 9px;
+}
+.footer-top{
+  background-color: #37475a;
+  height: 40px;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodypannel{
+  height: 450px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pannel{
+  /* border: 2px solid white; */
+  margin-top: 50px;
+}
+ul{
+  line-height:1.7;
+}
+.foot{
+  text-decoration:none;
+  color: white;
+}
+.p3{
+  font-weight: 700;
+}
+.pannel3{
+  background-color: #222f3d;
+  height:50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+
+}
+.amalogo{
+    height:55px;
+    width:120px;
+    background-size: cover;
+    color: white;
+    /* border:1px solid white; */
+}
+.us{
+  height: 10px;
+}
+.combo{
+  display: flex;
+  margin-left: 50px;
+}
+.c{
+  height: 25px;
+  width:130px;
+  border: 1px solid white;
+  margin-left: 5px;
+  color: #CCCCCC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.pannel4
+{
+  background-color:#131A22; 
+   height:700px ;
+   color: white;
+   display: flex;
+   justify-content:space-evenly ;
+}
+.p4{
+  margin-top: 30px;
+  height: 1000px;
+  width: 170px;
+  /* border: 1px solid white; */
+}
+.p4e{
+  text-decoration: none;
+  font-weight:600;
+  font-size:   15px;
+  color: antiquewhite;
+}
+.parap{
+  color: #999999;
+  font-size: 15px;
+}
+.ae{
+  text-decoration: none;
+  color: #999999;
+}
+.pannel5{
+  height:50px ;
+  background-color: #131A22;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 15px 420px 15px;
+}
+.p5{
+  display: flex;
+}
+.favicon{
+  background-size: cover;
+}
